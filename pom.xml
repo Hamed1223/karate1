@@ -3,8 +3,8 @@
 	<groupId>tiger-api-test</groupId>
 	<artifactId>tiger.api.test</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>tiger-api-test</name>
-	<description>Tiger Class Karate Framework</description>
+	<name>titans-api-test</name>
+	<description>Titans Class Karate Framework</description>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
