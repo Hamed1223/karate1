@@ -10,7 +10,7 @@ Feature: Create account with Data generator
     And header Authorization = "Bearer " + generatedToken
 
   Scenario: Create New Account using Data generator;
-    * def generator = Java.type('tiger.api.test.fake.DataGenerator')
+    * def generator = Java.type('titans.api.test.fake.DataGenerator')
     * def email = generator.getEmail()
     * def firstName = generator.getFirstName()
     * def lastName = generator.getLastName()
