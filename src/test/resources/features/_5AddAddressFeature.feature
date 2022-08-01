@@ -1,5 +1,5 @@
 Feature: Create an account and add address to the account.
- #Break Time starts if you are done till 8:50 PM EST
+
   Background: Create new Account.
     Given url "https://tek-insurance-api.azurewebsites.net"
     * def createAccountResult = callonce read('CreateAccountFeature.feature')
